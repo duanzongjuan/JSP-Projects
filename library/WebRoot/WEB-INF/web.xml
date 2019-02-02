@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>library</display-name>
+  <welcome-file-list>
+    <welcome-file>background/login.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>SysAdminServlet</servlet-name>
+    <servlet-class>com.juan.servlet.SysAdminServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>SysAdminServlet</servlet-name>
+    <url-pattern>/SysAdminServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>BookTypeServlet</servlet-name>
+    <servlet-class>com.juan.servlet.BookTypeServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BookTypeServlet</servlet-name>
+    <url-pattern>/BookTypeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>BookInfoServlet</servlet-name>
+    <servlet-class>com.juan.servlet.BookInfoServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>BookInfoServlet</servlet-name>
+    <url-pattern>/BookInfoServlet</url-pattern>
+</servlet-mapping>
+  
+</web-app>

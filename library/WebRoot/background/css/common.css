@@ -1,0 +1,95 @@
+ body{margin:0;padding:0;border: 0;overflow:hidden;
+ }
+ html, body{height:100%;}
+ img{border:none;}
+ *{font-family:'Î¢ÈíÑÅºÚ';font-size:12px;color:#626262;}
+ dl,dt,dd{display:block;margin:0;}
+ a{text-decoration:none;}
+ /*left*/ 
+.menus_area{width:160px;height:auto !important;overflow:visible !important;height:100% !important;background-color:#3b9fe1; background-color: #3b9fe1}
+.menus_area dt{border:1px solid #bdd0db; border-top:none;padding-left:40px;padding-right:10px;background-repeat:no-repeat;background-position:10px center;background-color:#f1f8fc;color:#000;font-size:14px;position:relative;line-height:48px;cursor:pointer;}
+.menus_area dd{background-color:#BED7ED;padding-left:40px;display: none;}
+.menus_area dd a{color:#000;line-height:20px;}
+.menus_area dt img{position:absolute;right:10px;top:20px;}
+.system_log dt{background-image:url(../images/ico01.png)}
+.custom dt{background-image:url(../images/ico02.png)}
+.channel dt{background-image:url(../images/ico03.png)}
+.app dt{background-image:url(../images/ico04.png)}
+.cloud dt{background-image:url(../images/ico05.png)}
+.syetem_management dt{background-image:url(../images/ico06.png)}
+.source dt{background-image:url(../images/ico07.png)}
+.statistics dt{background-image:url(../images/ico02.png)}
+.menus_area dl dd:last-child{padding-bottom:10px;}
+dt.on{background-color:#6ec673;}
+ /*ºá²Ëµ¥*/ 
+#hd{  height:74px;background:url(../images/topbg.png) repeat-x;}
+#hd .hd-wrap{height:74px; background:url(../images/logo.png) no-repeat left bottom;}
+html *{padding:0;margin:0;font-family: Arial, Verdana, Helvetica, sans-serif;}
+.nav{margin-top:0px;}
+
+/*index*/
+
+#topFrame {
+position: absolute;
+top: 0;
+left: 0;
+height: 100px;
+width: 100%;
+vertical-align: middle;
+border:0;
+}
+#leftFrame
+{
+position: absolute;
+top: 73px;
+left: 0;
+height: 100%;
+width: 150px;
+vertical-align: top;
+border:0;
+}
+#mainFrame
+{
+position: absolute;
+left: 150px;
+top: 75px;
+height: 100%;
+width: 100%;
+right: 0;
+bottom: 0;
+border:0;
+}
+
+/*table*/
+.xtable {
+	border: 1px #ddd solid;
+	width:100%;
+	text-align:center;
+}
+.xtable thead tr {
+	border: 1px #ddd solid;
+	background-color: #3b9fe1;
+	height:35px;
+	line-height:35px;
+}
+.xtable thead tr th {
+	text-align:center;border:1px #ddd solid;
+}
+.xtable th {
+	color:#fff;
+}
+.xtable tr td {
+	border: 1px #ddd solid;
+	height: 35px; 
+	color: #000;
+	overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+    -moz-text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+}
+.xtable tr:hover{
+	background-color: #DDF1FD;
+}
+
